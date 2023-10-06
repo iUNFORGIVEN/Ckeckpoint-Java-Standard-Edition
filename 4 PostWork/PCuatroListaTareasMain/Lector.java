@@ -1,4 +1,3 @@
-/*
 public class Lector {
     private Menu menu;
     private ListasTareas listasTareas;
@@ -44,4 +43,3 @@ public class Lector {
     }
 
 }
-*/
