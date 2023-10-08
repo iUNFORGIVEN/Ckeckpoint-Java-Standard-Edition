@@ -2,7 +2,7 @@ package modelo;
 
 import java.util.Date;
 
-public class Tarea {
+public class    Tarea {
     private String nombre;
     private Date fechaCreacion;
     private Date fechaExpiracion;

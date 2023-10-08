@@ -7,7 +7,7 @@ public class ListaTareas {
     private Date fechaCreacion;
 
 
-    public ListaTareas(String nombre) {
+    public ListaTareas(String nombre, Object o) {
         this.nombre = nombre;
     }
 

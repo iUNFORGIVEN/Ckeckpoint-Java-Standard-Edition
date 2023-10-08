@@ -25,7 +25,6 @@ public class ListasTareas {
     public void verTareasDeLista(int indiceLista) {
         if (i >= 0 && indiceLista < listas.size()) {
             ListaTareas listaSeleccionada = listas.get(indiceLista);
-            // Aquí puedes implementar la lógica para ver las tareas de la lista seleccionada
             System.out.println("Tareas de la lista: " + listaSeleccionada.getNombre());
         } else {
             System.out.println("Índice de lista inválido.");
@@ -35,10 +34,9 @@ public class ListasTareas {
     public void actualizarLista(int indiceLista) {
         if (indiceLista >= 0 && indiceLista < listas.size()) {
             ListaTareas listaSeleccionada = listas.get(indiceLista);
-            // Aquí puedes implementar la lógica para actualizar la lista seleccionada
-            System.out.println("Actualizando lista: " + listaSeleccionada.getNombre());
+            System.out.println("Actualizar la lista: " + listaSeleccionada.getNombre());
         } else {
-            System.out.println("Índice de lista inválido.");
+            System.out.println("El Indice ingresado es invalidoclear.");
         }
     }
 

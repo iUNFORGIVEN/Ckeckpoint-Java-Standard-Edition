@@ -55,4 +55,5 @@ public class Lector {
                     scanner5.nextLine();
                     listasTareas.eliminarLista(indiceListaEliminar);
                     break;
-                case
+                default:
+                    System.out.println("Por favor, elija una opción válida.");
