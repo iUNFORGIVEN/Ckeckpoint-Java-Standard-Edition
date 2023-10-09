@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -44,11 +45,13 @@ public class ListaTareas implements Serializable {
 
     // Método para obtener la lista de tareas
     public List<Object> obtenerTareas() {
+
         return tareas;
     }
 
     // Método para obtener el número de tareas en la lista
     public int obtenerNumeroTareas() {
+
         return tareas.size();
     }
 

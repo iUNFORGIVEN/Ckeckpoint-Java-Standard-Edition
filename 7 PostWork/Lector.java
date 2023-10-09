@@ -4,6 +4,7 @@ public class Lector {
     private Scanner scanner;
 
     public Lector() {
+
         scanner = new Scanner(System.in);
     }
 
@@ -24,6 +25,7 @@ public class Lector {
     }
 
     public String leerTexto() {
+
         return scanner.nextLine();
     }
 }
